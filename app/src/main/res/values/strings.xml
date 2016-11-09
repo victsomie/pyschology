@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Akili Ni Afya</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_homepage">Homepage</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="story"> In the recent past, Kenyans have embraced use of technology, despite the upsurge in mobile telephony and ingenious development of mobile application. No research has been conducted in the field of mental health, and if any there has are no publications of the studies in Kenya. According to the World Health Organization, by 2030 Depression will be the leading course of disability. Furthermore the nature in which depression present is that it co occurs with other chronic conditions including Bipolar mood disorder (BMD) which adversely affects global functioning of a person. </string>
+    <string name="action_example">Example action</string>
+    <string name="objective">The need to establish the efficacy of mobile applications to monitor progress of patient’s with BMD undergoing treatment through medication and cognitive behavioural therapy. This will form the foundation for further research on the use of mobile applications that help monitor and evaluate treatment progress and identify viable evidence based therapeutic approaches in the Kenyan context.</string>
+    <string name="method">The participant’s smart phones will be fitted with a mobile application that will gather information in real time on their progress whenever they updates it. Subsequently, all the information will be stored on a database. The components of the application will include quantitative recording of situations, thoughts, emotions and qualitative monitoring of moods, sleep and CBT techniques.
+Participants on medication and CBT or CBT alone, will be selected from outpatient Psychiatrics’ clinics, Clinical Psychologists clinics and outpatients from Chiromo lane medical center and patients from BMD support groups respectively.
+The study will apply to a sample of 30 patients with BMD
+</string>
+    <string name="title_activity_second">Second</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_what_worked">WhatWorked</string>
+    <string name="title_activity_wokingfor_me">WokingforMe</string>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string name="title_activity_worked">Worked</string>
+    <string name="title_activity_report">Report</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_medic">Medic</string>
+    <string name="title_activity_splash_screed">SplashScreed</string>
+</resources>

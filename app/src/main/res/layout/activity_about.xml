@@ -1,0 +1,168 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunrise0610"
+    tools:context="ke.co.appslab.www.pyschology.About">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:text="Background"
+        android:background="@color/rte"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:textColor="@color/white"
+
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cont"
+        android:layout_marginTop="15dp"
+        android:text="@string/story"
+        android:background="@color/rte"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="6dp"
+        android:textColor="@color/white"
+
+        />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:text="Objective"
+        android:background="@color/rte"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:textColor="@color/white"
+
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cont1"
+        android:layout_marginTop="15dp"
+        android:text="@string/objective"
+        android:background="@color/rte"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="6dp"
+        android:textColor="@color/white"
+
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:text="Methodology"
+        android:background="@color/rte"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:textColor="@color/white"
+
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/method"
+        android:background="@color/rte"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="6dp"
+        android:textColor="@color/white"
+
+    />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:text="Result"
+        android:background="@color/rte"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:textColor="@color/white"
+
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="The mobile application developed and customized to collect and analyze data in real time will be used"
+        android:background="@color/rte"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="6dp"
+        android:textColor="@color/white"
+
+        />
+</LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_height="33dp"
+            android:layout_width="0dp"
+            android:background="#00aeef"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Back"
+                android:id="@+id/back"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:drawableLeft="@drawable/ic_keyboard_arrow_right_white_24dp"
+                android:layout_height="32dp" />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_height="33dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Start"
+                android:id="@+id/submit"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:drawableRight="@drawable/right"
+                android:layout_height="32dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
